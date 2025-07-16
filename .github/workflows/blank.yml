@@ -27,6 +27,7 @@ jobs:
     - uses: google-github-actions/auth@v2
       with:
         project_id: 'accenture-intern'
+        token_format: 'access_token'
         workload_identity_provider: 'projects/727026638213/locations/global/workloadIdentityPools/accenture-lab-identitypool/providers/accenture-lab-identityprovider'
 
     - name: Access Secret
